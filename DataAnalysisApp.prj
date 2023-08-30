@@ -1,0 +1,113 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2092320121" file="C:\works\01_matlab\01_APP\urbanPlanner_app\DataAnalysisApp.prj" location="C:\works\01_matlab\01_APP\urbanPlanner_app" name="DataAnalysisApp" target="target.mlapps" target-name="打包为 App">
+    <param.appname>DataAnalysisApp</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\11323\AppData\Local\Temp\tp06f005ea_49d6_4f60_87ff_5cd7ac865823.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>859e76c1-2099-455c-a3fa-6c4f69b22d3f</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DataAnalysisApp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\carlinefromgeo.m</file>
+      <file>${PROJECT_ROOT}\CursorPublisher.m</file>
+      <file>${PROJECT_ROOT}\DataAnalyse.m</file>
+      <file>${PROJECT_ROOT}\DnD_uifigure.m</file>
+      <file>${PROJECT_ROOT}\MapOfChongqing_Shp.mat</file>
+      <file>${PROJECT_ROOT}\MapOfYizhuang_Shp.mat</file>
+      <file>${PROJECT_ROOT}\SphereDist.m</file>
+      <file>${PROJECT_ROOT}\startangle2endhigh.m</file>
+      <file>${PROJECT_ROOT}\TableOfChongqing.mat</file>
+      <file>${PROJECT_ROOT}\TableOfYizhuang.mat</file>
+      <file>${PROJECT_ROOT}\VariableNames.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\works\01_matlab\01_APP" name="urbanPlanner_app" optional="false">C:\works\01_matlab\01_APP\urbanPlanner_app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\programfiles\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
