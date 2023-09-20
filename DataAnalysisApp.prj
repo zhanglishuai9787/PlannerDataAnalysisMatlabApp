@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2092320121" file="C:\works\01_matlab\01_APP\urbanPlanner_app\DataAnalysisApp.prj" location="C:\works\01_matlab\01_APP\urbanPlanner_app" name="DataAnalysisApp" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3683055678" file="C:\works\01_matlab\01_APP\UrbanPlannerDataAnalyse_git\DataAnalysisApp.prj" location="C:\works\01_matlab\01_APP\UrbanPlannerDataAnalyse_git" name="DataAnalysisApp" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataAnalysisApp</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\11323\AppData\Local\Temp\tp06f005ea_49d6_4f60_87ff_5cd7ac865823.png</param.screenshot>
+    <param.screenshot>C:\Users\11323\AppData\Local\Temp\tpd8d5a80a_6c5d_469c_baeb_6d1fba870194.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -50,7 +50,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\works\01_matlab\01_APP" name="urbanPlanner_app" optional="false">C:\works\01_matlab\01_APP\urbanPlanner_app</file>
+      <file location="C:\works\01_matlab\01_APP" name="UrbanPlannerDataAnalyse_git" optional="false">C:\works\01_matlab\01_APP\UrbanPlannerDataAnalyse_git</file>
     </build-deliverables>
     <workflow />
     <matlab>

@@ -557,9 +557,10 @@ classdef DataAnalyse < handle
                 if sum(strcmp('trajectory',fieldnames(obj.h)))~=0%存在lanelist
                     delete(obj.h.trajectory)% 删除上次画图
                 end
-                latitudeSet = jsondecode(cell2mat(obj.T.latitudeSet(obj.dataIndex)));
-                longitudeSet = jsondecode(cell2mat(obj.T.longitudeSet(obj.dataIndex)));
-                if ~isempty(latitudeSet)
+
+                if ~isempty(cell2mat(obj.T.latitudeSet(obj.dataIndex)))
+                    latitudeSet = jsondecode(cell2mat(obj.T.latitudeSet(obj.dataIndex)));
+                    longitudeSet = jsondecode(cell2mat(obj.T.longitudeSet(obj.dataIndex)));
                     obj.h.trajectory = geoplot(latitudeSet,longitudeSet,'r.');
                 end
             end
